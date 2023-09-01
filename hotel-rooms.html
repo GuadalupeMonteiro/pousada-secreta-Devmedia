@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Projeto para praticar a propriedade flexbox do curso da devmedia com assinatura proporcionada pelo potência tech powered ifood">
+    <meta name="keywords" content="HTML,CSS,JavaScript,devmedia,ifood,potência tech powered">
+    <meta name="author" content="Guadalupe Monteiro">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/global.css?v=1">
+    <link rel="stylesheet" href="assets/css/hotel-rooms.css?v=1">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <title>Quartos Pousada Secreta</title>
+</head>
+
+<body>
+    <nav id="nav">
+        <a href="index.html" class="logo"><i class="ph-fill ph-house"></i></a>
+        <button id="btn-nav" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu-list">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <ul id="menu-list" role="menu">
+            <li><a href="index.html#about" aria-label="Ir para seção informações">Sobre</a></li>
+            <li><a href="index.html#rote" aria-label="Ir para seção contatos">Rota</a></li>
+            <li><a href="hotel-rooms.html" aria-label="Ir para seção horários">Quartos</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="single">
+            <div class="text">
+                <h2>Quartos de solteiro</h2>
+                <p>Conheça os nossos quartos de solteiro.</p>
+            </div>
+            <div class="flex">
+                <div class="hotel-room-wrapper flex">
+                    <picture>
+                        <source type="image/webp" srcset="assets/quartos.webp">
+                        <img src="assets/quartos.jpg" alt="quarto de solteiro 1" />
+                    </picture>
+                    <picture>
+                        <source type="image/webp" srcset="assets/quarto-solteiro1.webp">
+                        <img src="assets/quarto-solteiro1.jpg" alt="quarto de solteiro 2" />
+                    </picture>
+                    <picture>
+                        <source type="image/webp" srcset="assets/quarto-solteiro3.webp">
+                        <img src="assets/quarto-solteiro3.jpg" alt="quarto de solteiro 3" />
+                    </picture>
+                </div>
+                <div>
+                    <h3>Informações sobre o quarto:</h3>
+                    <ul class="info">
+                        <li>TV de tela plana a cabo.</li>
+                        <li>Cozinha compacta.</li>
+                        <li>Área para refeições.</li>
+                        <li>Aquecedor</li>
+                        <li>1 ou 2 camas de solteiro.</li>
+                        <li>Não permite cancelamento.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="couple">
+            <div class="text">
+                <h2>Quarto de casal</h2>
+                <p>Conheça nossos quartos de casal.</p>
+            </div>
+            <div class="flex">
+                <div class="hotel-room-wrapper flex">
+                    <picture>
+                        <source type="image/webp" srcset="assets/quarto-casal1.webp">
+                        <img src="assets/assets/quarto-casal1.jpg" alt="quarto de casal 1" />
+                    </picture>
+                    <picture>
+                        <source type="image/webp" srcset="assets/quarto-casal2.webp">
+                        <img src="assets/quarto-casal2.jpg" alt="quarto de casal 2" />
+                    </picture>
+                    <picture>
+                        <source type="image/webp" srcset="assets/quarto-casal3.webp">
+                        <img src="assets/quarto-casal3.jpg" alt="quarto de casal 3" />
+                    </picture>
+                </div>
+                <div>
+                    <h3>Informações sobre o quarto:</h3>
+                    <ul class="info">
+                        <li>TV de tela plana a cabo.</li>
+                        <li>Cozinha compacta.</li>
+                        <li>Área para refeições.</li>
+                        <li>Aquecedor</li>
+                        <li>1 cama de casal.</li>
+                        <li>Cancelamento grátis.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="family">
+            <div class="text">
+                <h2>Quarto família</h2>
+                <p>Conheça nossos quartos família.</p>
+            </div>
+            <div class="flex">
+                <div class="hotel-room-wrapper flex">
+                    <picture>
+                        <source type="image/webp" srcset="assets/quarto-familia1.webp">
+                        <img src="assets/assets/quarto-familia1.jpg" alt="quarto de família 1" />
+                    </picture>
+                    <picture>
+                        <source type="image/webp" srcset="assets/quarto-familia2.webp">
+                        <img src="assets/quarto-familia2.jpg" alt="quarto de família 2" />
+                    </picture>
+                    <picture>
+                        <source type="image/webp" srcset="assets/quarto-familia3.webp">
+                        <img src="assets/quarto-familia3.jpg" alt="quarto de família 3" />
+                    </picture>
+                </div>
+                <div>
+                    <h3>Informações sobre o quarto:</h3>
+                    <ul class="info">
+                        <li>TV de tela plana a cabo.</li>
+                        <li>Cozinha compacta.</li>
+                        <li>Área para refeições.</li>
+                        <li>Aquecedor.</li>
+                        <li>1 cama de casal e 1 de solteiro.</li>
+                        <li>Cancelamento grátis.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="flex">
+        <h3>Entre em contato conosco:</h3>
+
+        <div class="info-container">
+            <a class="info" href="https://goo.gl/maps/eDvo3Let35kZuppc6" target="_blank">
+                <img src="assets/icones/endereco.png" alt="Ícone endereco" />
+                <p>Gramado RS</p>
+            </a>
+
+            <div class="info">
+                <img src="assets/icones/telefone.png" alt="Ícone telefone" />
+                <p>Cel: 5521000000000</p>
+            </div>
+
+            <a class="info"
+                href="https://www.booking.com/searchresults.pt-br.html?ss=Gramado%2C+Rio+Grande+do+Sul%2C+Brasil&efdco=1&label=gen173nr-1DCAEoggI46AdIM1gEaCCIAQGYAS24ARfIAQzYAQPoAQGIAgGoAgO4Av7Rw6cGwAIB0gIkN2ZkNDQ1YmEtYmU0ZC00ZmFkLWFiYjEtMmNmMmJkYzVlMTBh2AIE4AIB&sid=62f8188ad5e5be6ad04576f166b79b82&aid=304142&lang=pt-br&sb=1&src_elem=sb&src=index&dest_id=-645052&dest_type=city&ac_position=0&ac_click_type=b&ac_langcode=xb&ac_suggestion_list_length=5&search_selected=true&search_pageview_id=a584887f6af601c6&ac_meta=GhBhNTg0ODg3ZjZhZjYwMWM2IAAoATICeGI6BWdyYW1hQABKAFAA&group_adults=2&no_rooms=1&group_children=0&sb_travel_purpose=leisure"
+                target="_blank">
+                <img src="assets/icones/calendario.png" alt="Ícone calendario" />
+                <p>Faça sua reserva pelo Booking.com</p>
+            </a>
+        </div>
+        <p class="copyright">© Copyright - Pousada Secreta</p>
+    </footer>
+    <script src="js/global.js"></script>
+</body>
+
+</html>

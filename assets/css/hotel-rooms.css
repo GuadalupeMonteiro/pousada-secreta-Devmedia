@@ -1,0 +1,73 @@
+.logo i {
+    color: #250901;
+}
+
+#btn-nav span {
+    background-color: #250901;
+}
+
+#nav.active #btn-nav span:nth-child(1),
+#nav.active #btn-nav span:nth-child(3) {
+    background-color: #fff;
+}
+
+main section {
+    padding-top: 7rem;
+}
+
+.hotel-room-wrapper {
+    width: 100%;
+    max-width: 102.4rem;
+    padding: 0 1rem;
+    gap: 1rem;
+}
+
+.hotel-room-wrapper picture,
+picture img {
+    width: 100%;
+}
+
+h3 {
+    margin: 3rem auto 2rem;
+    text-align: center;
+}
+
+ul.info {
+    padding: 0 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info li {
+    margin: 0 3rem;
+    text-align: center;
+    list-style: disc;
+}
+
+@media (min-width: 680px) {
+    .hotel-room-wrapper {
+        width: 80%;
+        flex-direction: row;
+    }
+
+    picture img {
+        height: 20rem;
+        object-fit: cover;
+    }
+
+    ul.info {
+        justify-content: center;
+    }
+}
+
+@media (min-width: 960px) {
+    #menu-list li a {
+        color: #250901;
+    }
+
+    #menu-list li::after {
+        background-color: #250901;
+    }
+}
